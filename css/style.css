@@ -14,14 +14,15 @@ body{
 
 .box {
   text-align:center;
-  width: 90%;
-  height: 20em;
+  width: 22rem;
+  height: 12rem;
   margin: 1em 5%;
   background-color: lightgrey;
   border: 5px solid darkcyan;
 }
 
 .menu {
+  width:100%;
   color: white;
   background-color: darkcyan ;
   opacity:0.7;
@@ -29,7 +30,7 @@ body{
   
   /*min-width: 400px; */
 }
-
+/*
 .btn {
 	color: orange;
   border-color:transparent;
@@ -45,10 +46,8 @@ body{
   position:relative;
 	top:-5px;
   color: yellow;
-
-/* This button was generated using CSSButtonGenerator.com */
 }
-      
+ */     
 
 @media all and (min-device-width: 1200px){   /* on regular big screen */
     .headline{
@@ -60,22 +59,25 @@ body{
   }
 
 
-@media only screen 
+@media only screen    /* works only on iPhone  */
 and (min-device-width : 320px) and (max-device-width : 568px) {
-
+    
+    .article{
+        width:500px;
+    }
     .menu{
      width: 100%;
-     height: 7em;
+     height: 25%;
      font-size: 150%;
    } 
     .headline{
-      margin-top: 30%;
+      margin-top: 2em;
       color:red;
       font-size: 300%;
     }
     .para{
      color:red;
-      font-size: 300%; 
+      font-size: 30pt; 
     }
   }  
 
