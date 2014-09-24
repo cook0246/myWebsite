@@ -60,7 +60,7 @@
     }
   }
 
-@media all and (max-width: 600px){  /* on mobile  */
+@media all and (max-width: 568px){  /* on mobile  */
    .menu{
      width: 75%;
      height: 4em;
