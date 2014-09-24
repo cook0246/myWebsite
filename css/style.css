@@ -1,0 +1,76 @@
+.body{
+  font-family: 'Oswald', sans-serif;
+} 
+.article{
+    padding: 3em 2%; 
+    margin: 1em 5%;
+    background-color: darkgrey; 
+    min-width: 400px;
+  }
+
+.box {
+  text-align:center;
+  width: 90%;
+  height: 20em;
+  margin: 1em 5%;
+  background-color: lightgrey;
+  border: 5px solid darkcyan;
+}
+
+.menu {
+  color: white;
+  background-color: darkcyan ;
+  opacity:0.7;
+  position: fixed;
+  width: 80%;
+  min-width: 400px;
+}
+
+.btn {
+	color: orange;
+  border-color:transparent;
+  background-color:transparent;
+	font-size:25px;
+	height:45px;
+	
+	width:100px;
+	text-align:right;
+
+}.btn:active {
+	border-color: transparent;
+  position:relative;
+	top:-5px;
+  color: yellow;
+
+/* This button was generated using CSSButtonGenerator.com */
+}
+      
+
+@media all and (min-width: 600px){   /* on regular big screen */
+    .headline{
+      font-size: 50pt;
+    }
+    .para{
+      font-size: 18pt;
+    }
+  }
+
+@media all and (max-width: 600px){  /* on mobile  */
+   .menu{
+     width: 75%;
+     height: 4em;
+     
+   }
+      
+    .headline{
+      font-size: 300%;
+    }
+    .para{
+      
+      font-size: 180%;
+      
+    }
+  }  
+
+ 
+
