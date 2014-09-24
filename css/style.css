@@ -46,7 +46,7 @@
 }
       
 
-@media all and (min-width: 600px){   /* on regular big screen */
+@media all and (min-width: 1000px){   /* on regular big screen */
     .headline{
       font-size: 50pt;
     }
@@ -55,7 +55,7 @@
     }
   }
 
-@media all and (max-width: 100px){  /* on mobile  */
+@media all and (max-width: 500px){  /* on mobile  */
    .menu{
      width: 75%;
      height: 4em;
