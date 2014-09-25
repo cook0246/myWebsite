@@ -57,7 +57,7 @@ body{
 /* iPhone Portrait */
 @media only screen and (min-width: 320px){
  *{ color: orange; }
-    body{ font-size: 3rem; }   
+    body{ font-size: 4rem; }   
 }
 
 /*  iPhone Landscape */
