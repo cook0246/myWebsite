@@ -1,34 +1,40 @@
 *{
     padding:0;
     margin:0;
+    outline: 1px dashed cyan;
 }
 
 body{
   font-family: 'Oswald', sans-serif;
 } 
 .article{
-    padding: 3em 2%; 
-    margin: 1em 5%;
+    padding: 3em 0; 
+    margin: 1em 0.5%;
     background-color: darkgrey; 
   }
-
+/*
 .box {
+  
   text-align:center;
-  width: 22rem;
-  height: 12rem;
-  margin: 1em 5%;
+  width: 100%;
+  height: ;
+  
   background-color: lightgrey;
-  border: 5px solid darkcyan;
+  border: 5px solid purple;
 }
-
+*/
+.pic{
+    min-width: 100%;
+    max-height: 600px;
+}
 .menu {
   width:100%;
   color: white;
   background-color: darkcyan ;
-  opacity:0.7;
+  opacity:0.6;
   position: fixed;
   
-  /*min-width: 400px; */
+  
 }
 /*
 .btn {
@@ -51,19 +57,34 @@ body{
 
 @media all and (min-device-width: 1200px){   /* on regular big screen */
     .headline{
-      font-size: 16pt;
-    }
-    .para{
-      font-size: 100%;
+      font-size: 1rem;
     }
   }
 
+/* Iphone Portrait */
+@media only screen and (min-width: 520px){
+ *{
+     color: orange;
+ }
+    body{ font-size: 2rem }   
+}
 
-@media only screen    /* works only on iPhone  */
+/*  Iphone Landscape */
+@media only screen and (min-width: 800px){
+    *{
+        color: blue;
+    }
+    body{ 
+        font-size:1rem;
+    }
+}
+
+/*
+@media only screen    
 and (min-device-width : 320px) and (max-device-width : 568px) {
     
     .article{
-        width:500px;
+        max-width:500px;
     }
     .menu{
      width: 100%;
@@ -79,5 +100,6 @@ and (min-device-width : 320px) and (max-device-width : 568px) {
      color:red;
       font-size: 30pt; 
     }
+*/
   }  
 
