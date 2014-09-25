@@ -1,42 +1,42 @@
 *{
     padding:0;
     margin:0;
-    outline: 2px solid orange;
 }
 
 
 .article{
     /*max-width: 100%;*/
     padding: 10% 0; 
-    margin: 0 0.5%;
-    background-image:linear-gradient(grey, white, black) ; 
-    text-shadow: -1px -1px white;
+    margin: 0% 0.5%;
+    background-image:linear-gradient(white, lightgrey) ; 
+    text-shadow: -2px -2px white;
+    
   }
 
 .pic{
     display:block;
     margin: 0 auto;
-    min-width: 40%;
-    min-height: 40%;
+    min-width: 60%;
+    min-height: 30%;
     max-width: 100%;
-    max-height: 100%;
-    
-    
-    
+    max-height: 150%;
+    box-shadow: 2px 2px darkcyan;
 }
 .menu {
   width:100%;
   font-family: 'Kaushan Script', cursive;
-  color: black;
-  text-shadow: 4px 1px darkcyan;
-  background-color: white ;
-  opacity:0.9;
+  color: white;
+  text-shadow: 4px 2px darkcyan;
+  background-color: lightgrey ;
+  opacity:0.95;
   position: fixed;  
-  text-align: center
+  text-align: center;
+  box-shadow: 0 2px darkcyan;
 }
 
 .headline{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    
 }
 
 .para{
@@ -50,16 +50,17 @@
         font-size: 3rem;
     }
     .article{
-      font-size: 10000rem;
+      font-size: 2rem;
     }
   }
 
 /* iPhone Portrait */
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 320px){
  /**{ color: orange; }*/
-    .article{ font-size: 4rem; } 
+    .para{ font-size: 3rem; } 
     .headline{
-        margin-top:2% ;
+        font-size:4rem ;
+        margin-top:5% ;
     }
     
 }
@@ -67,7 +68,10 @@
 /*  iPhone Landscape */
 @media only screen and (min-width: 568px){
     /**{ color: blue; }*/
-    .article{ font-size: 3rem; }
+    .headline{
+        font-size:7rem ;
+    }
+    .para{ font-size: 3rem; }
 }
 
 /*
