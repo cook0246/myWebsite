@@ -12,17 +12,7 @@ body{
     margin: 1em 0.5%;
     background-color: darkgrey; 
   }
-/*
-.box {
-  
-  text-align:center;
-  width: 100%;
-  height: ;
-  
-  background-color: lightgrey;
-  border: 5px solid purple;
-}
-*/
+
 .pic{
     min-width: 100%;
     max-height: 600px;
@@ -32,9 +22,11 @@ body{
   color: white;
   background-color: darkcyan ;
   opacity:0.6;
-  position: fixed;
-  
-  
+  position: fixed;  
+}
+
+.para{
+    margin: 0 3% 0 3%;
 }
 /*
 .btn {
@@ -56,18 +48,19 @@ body{
  */     
 
 @media all and (min-device-width: 1200px){   /* on regular big screen */
+    
     .headline{
       font-size: 1rem;
     }
   }
 
-/* Iphone Portrait */
-@media only screen and (min-width: 320px){
+/* iPhone Portrait */
+@media only screen and (max-width: 320px){
  *{ color: orange; }
     body{ font-size: 3rem; }   
 }
 
-/*  Iphone Landscape */
+/*  iPhone Landscape */
 @media only screen and (min-width: 568px){
     *{ color: blue; }
     body{ font-size: 3rem; }
