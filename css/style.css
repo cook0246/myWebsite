@@ -82,6 +82,28 @@
         color:black;
         background-color: white;
     }
+}
+    
+    
+    /*  iPhone Landscape */
+@media only screen and (min-width: 560px){
+    /**{ color: blue; }*/
+    .headline{
+        font-size:4rem ;
+    }
+    .para{ font-size: 3rem; }
+    
+    .ind2{
+        font-size: 2rem;
+        color:black;
+        background-color: lightgreen;
+    }
+    .ind1, .ind3{
+        font-size: 1rem;
+        color:black;   
+        background-color: white;
+    }
+}
     
 /* on regular big screen */
 @media all and (min-width: 561px){   
@@ -107,25 +129,7 @@
   }
 
 
-/*  iPhone Landscape */
-@media only screen and (min-width: 560px){
-    /**{ color: blue; }*/
-    .headline{
-        font-size:4rem ;
-    }
-    .para{ font-size: 3rem; }
-    
-    .ind2{
-        font-size: 2rem;
-        color:black;
-        background-color: lightgreen;
-    }
-    .ind1, .ind3{
-        font-size: 1rem;
-        color:black;   
-        background-color: white;
-    }
-}
+
 
 
     
